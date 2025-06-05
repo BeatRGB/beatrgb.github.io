@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dodge the Red Squares! - Powerups & Levels</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Logo -->
+  <div class="logo-container">
+    <!-- Example SVG Logo, replace with your own if desired -->
+    <svg width="54" height="54" viewBox="0 0 54 54">
+      <circle cx="27" cy="27" r="24" fill="#228B22" stroke="#00ff88" stroke-width="4"/>
+      <text x="50%" y="54%" text-anchor="middle" fill="#fff" font-size="24" font-family="Arial" dy=".3em">Z</text>
+    </svg>
+  </div>
+  <div class="game-ui">
+    <h1>Dodge the Red Squares!</h1>
+    <div id="score">Time: 0.00s | Level: 1</div>
+    <button id="restart-btn" class="hidden">Restart</button>
+  </div>
+  <canvas id="game-canvas" width="600" height="400"></canvas>
+
+  <!-- Sounds (must be in the same folder as this file) -->
+  <audio id="hit-sound" src="hit.mp3" preload="auto"></audio>
+  <audio id="powerup-sound" src="powerup.mp3" preload="auto"></audio>
+  <audio id="levelup-sound" src="levelup.mp3" preload="auto"></audio>
+
+  <footer>
+    <p class="copyright">&copy; 2025 ZEAC. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
