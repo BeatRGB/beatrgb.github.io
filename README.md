@@ -36,7 +36,6 @@
 - Power-ups for extra fun and strategy
 - Increasing difficulty and levels
 - Sound effects for hits, power-ups, and level-ups
-- Custom logo and copyright
 
 ---
 
