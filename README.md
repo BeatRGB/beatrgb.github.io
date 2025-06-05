@@ -1,7 +1,5 @@
 # 🟩 Dodge the Red Squares!
 
-![Game Screenshot](https://user-images.githubusercontent.com/yourusername/your-screenshot.png)
-
 **Dodge the Red Squares!** is a fast-paced, browser-based survival game. Move your green circle to dodge an ever-increasing swarm of red squares, collect power-ups, and see how long you can last as the game gets harder and harder!
 
 ---
